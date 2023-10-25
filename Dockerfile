@@ -7,7 +7,7 @@ RUN apt-get -y install -y gconf-service libasound2 libatk1.0-0 libcairo2 libcups
 RUN apt-get install -y g++ build-essential
 
 ### Install NodeJS
-RUN curl -sL https://deb.nodesource.com/setup_18.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_20.x | bash -
 RUN apt-get install -y nodejs
 
 ### Install Redis
